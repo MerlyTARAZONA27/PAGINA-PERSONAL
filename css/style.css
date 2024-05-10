@@ -51,30 +51,96 @@ nav {
     transition: all ease-in-out.6s;
 }
 
-.inicio{
+
+
+ .contenido-header{
+    width: 80%;
+    height: 600px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+ }
+.contenido-header > img{
+    width: 300px;
+    height: 300px;
+    animation: ease-in animacion 0.5s;
+    margin-left: 50px;
+
+}
+.textos-header{
+    margin: 0 0 0 30px;
+}
+.contenido-header p{
+    font-weight: 300;
+    margin-top: 14px;
+    color: #302c2e;
+    text-align: justify;
+}
+.contenido-header a{
+    margin: 28px 0 0 0;
+    width: 150px;
+    display: inline-block;
+    background-color: #5b585b;
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(169, 167, 167, 0.46);
+}
+/* ########## section education ############## */
+.title{
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+.educacion{
+    background-color: #F2F2F2;
+
+}
+.contenedor-educacion{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 500px;
+    justify-content: space-around;
+}
+.articulo{
     width: 30%;
-    margin-top: 20px;
+    background-color: #fff;
+    margin-top: 50px;
     border-radius: 10px;
     padding: 45px 30px 60px 30px;
-    transition: all ease-in-out .5s;
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    transition:  all ease-in-out.5s;
 
 }
+.articulo:hover{
+    box-shadow: 014px 10px rgba(17, 29, 48);
+    color: #FFf;
+    background-color: #f2c9eb;
+    transition: .5s;
+}
+.articulo > h3{
+    font-size: 24px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.articulo > a{
+    text-decoration: none;
+    color: #000;
 
-.inicio> h1 {
-    color: rgb(226, 145, 196);
-    font-family: serif;
-    text-align: center;
+}
+.articulo > a:hover{
+    color:  #fff;
+    transition: .5s;
 }
 
-.img {
-    margin-top: 120px;
-    margin-left:30px;
-    margin-right: 30px;
-    width: 40%;
-    height: 30%;
-    display: flex;
-} 
+
+
