@@ -61,6 +61,8 @@ nav {
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    background-color: #f0d5ef;
+    padding: 0;
 
  }
 .contenido-header > img{
@@ -85,7 +87,7 @@ nav {
     display: inline-block;
     background-color: #5b585b;
     text-align: center;
-    color: white;
+    color: rgb(226, 221, 221);
     padding: 12px 0;
     text-decoration: none;
     font-weight: 400;
@@ -94,7 +96,13 @@ nav {
     border-radius: 5px;
     box-shadow: 0 8px 32px rgba(169, 167, 167, 0.46);
 }
-/* ########## section education ############## */
+/*############# section img ###################*/
+.img{
+    text-align: center;
+    padding-top: 140px;
+    
+}
+/* ########## section channel ############## */
 .title{
     margin-top: 50px;
     display: block;
@@ -102,16 +110,18 @@ nav {
     text-align: center;
 
 }
-.educacion{
+.channel{
     background-color: #F2F2F2;
 
 }
-.contenedor-educacion{
+.contenedor-channel{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 500px;
     justify-content: space-around;
+    
 }
+
 .articulo{
     width: 30%;
     background-color: #fff;
@@ -141,6 +151,87 @@ nav {
     color:  #fff;
     transition: .5s;
 }
+/* ################################## SECTION DIOR ################################## */
+.DIOR {
+    background-color:#F2F2F2 ;
+    color: #000;
+}
 
+.content-dior{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+.dior {
+    width: 32%;
+    
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.dior:hover {
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+    color: #FFf;
+    background-color: #f2c9eb;
+    transition: .5s;
+}
+
+.dior img {
+    height: 70px;
+    width: auto;
+}
+
+.dior p {
+    text-align: justify;
+}
+
+.dior h3 {
+    margin-bottom: 15px;
+}
+/* ################################## SECTION MAC ################################## */
+.MAC {
+    background-color:#F2F2F2 ;
+    color: #000;
+}
+
+.content-mac{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+.mac {
+    width: 32%;
+    
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.mac:hover {
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+    color: #FFf;
+    background-color: #f2c9eb;
+    transition: .5s;
+}
+
+.mac img {
+    height: 70px;
+    width: auto;
+}
+
+.mac p {
+    text-align: justify;
+}
+
+.mac h3 {
+    margin-bottom: 15px;
+}
 
 
