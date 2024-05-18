@@ -75,6 +75,11 @@ nav {
 .textos-header{
     margin: 0 0 0 30px;
 }
+.textos-header h1{
+    font-size: 150px;
+    color: #0f0e0e;
+    font-family: oblique;
+}
 .contenido-header p{
     font-weight: 300;
     margin-top: 14px;
@@ -100,57 +105,54 @@ nav {
 .img{
     text-align: center;
     padding-top: 140px;
+    margin-left: 0px;
+    margin-right: 0;
     
 }
-/* ########## section channel ############## */
-.title{
-    margin-top: 50px;
-    display: block;
-    width: 100%;
-    text-align: center;
-
+/* ################################## SECTION CHANNEL ################################## */
+.CHANNEL {
+    background-color:#F2F2F2 ;
+    color: #000;
 }
-.channel{
-    background-color: #F2F2F2;
 
-}
-.contenedor-channel{
+.content-channel{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
     justify-content: space-around;
+}
+.channel {
+    width: 32%;
     
-}
-
-.articulo{
-    width: 30%;
-    background-color: #fff;
-    margin-top: 50px;
     border-radius: 10px;
-    padding: 45px 30px 60px 30px;
-    transition:  all ease-in-out.5s;
-
+    background-color: #fff;
+    color: #000;
+    margin-top: 50px;
+    padding: 20px;
 }
-.articulo:hover{
-    box-shadow: 014px 10px rgba(17, 29, 48);
+
+.channel:hover {
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
     color: #FFf;
     background-color: #f2c9eb;
     transition: .5s;
 }
-.articulo > h3{
-    font-size: 24px;
-    margin-top: 10px;
-    text-transform: uppercase;
-}
-.articulo > a{
-    text-decoration: none;
-    color: #000;
 
+.channel img {
+    height: 250px;
+    width: 300px;
+    text-align: center;
 }
-.articulo > a:hover{
-    color:  #fff;
-    transition: .5s;
+
+.channel p {
+    text-align: justify;
 }
+.channel h3 {
+    margin-bottom: 15px;
+}
+
+
+
 /* ################################## SECTION DIOR ################################## */
 .DIOR {
     background-color:#F2F2F2 ;
